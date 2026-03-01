@@ -18,3 +18,13 @@ Deleting it removes Git tracking.
 Working directory: where files are edited  
 Staging area: selected changes to commit  
 Repository: committed history
+
+## Divergent Branches
+
+This happens when local and remote branches both have new commits.
+
+Git stops and asks how to reconcile history.
+
+Solutions:
+- Merge: git pull --no-rebase (safe)
+- Rebase: git pull --rebase (clean but risky)
