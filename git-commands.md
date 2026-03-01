@@ -109,5 +109,25 @@ git diff
 **what it does:**
 -shows how many branches are there
 **Example:**
-git branch 
+git branch
+
+## Branching Commands
+
+- git branch  
+  List all branches  
+
+- git branch <branch-name>  
+  Create a new branch  
+
+- git switch <branch-name>  
+  Switch to another branch  
+
+- git switch -c <branch-name>  
+  Create and switch to a new branch  
+
+- git branch -d <branch-name>  
+  Delete a branch  
+
+- git branch -D <branch-name>  
+  Force delete a branch  
 
