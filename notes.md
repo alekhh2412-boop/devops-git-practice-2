@@ -28,3 +28,9 @@ Git stops and asks how to reconcile history.
 Solutions:
 - Merge: git pull --no-rebase (safe)
 - Rebase: git pull --rebase (clean but risky)
+
+Fast-forward merge → No new commit, pointer moves
+
+Merge commit → Created when histories diverge
+
+Merge conflict → Git needs human decision
